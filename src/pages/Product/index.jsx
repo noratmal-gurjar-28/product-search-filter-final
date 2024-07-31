@@ -28,7 +28,7 @@ const Product = () => {
   return (
     <div className='container'>
       <SearchField value={searchTerm} onChange={onSearch} />
-      <div className="product-list row">
+      <div className="product-list row mb-5">
         {productList.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

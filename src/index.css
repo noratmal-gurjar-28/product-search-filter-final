@@ -2,14 +2,24 @@
   text-align: center;
 }
 .bg-navbar{
-background-color: #208382;
+background-color: #d1d8ec;
 padding: 20px;
 }
 
+.logo-img img{
+  width: 200px;
+  object-fit: contain;
+}
 
 .product-hover {
   transition: background-color 0.8s ease, transform 0.5s ease; /* increased transform duration */
   cursor: pointer;
+}
+
+.fs-12{
+  font-size: 12px;
+  font-family: "lato";
+
 }
 
 .product-hover:hover {
@@ -44,7 +54,7 @@ p{
   outline: none !important;
 }
 body{
-  background-color: #ddd;
+  background-color: #F8F8F8;
 }
 
 .bck-btn-list{
@@ -135,6 +145,24 @@ input:focus::placeholder {
   width: 500px;
   object-fit: cover;
 }
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+}
+
+.footer .fs-12 {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .footer h4, .footer .fs-12 {
+    text-align: center;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   .search-bar input{
